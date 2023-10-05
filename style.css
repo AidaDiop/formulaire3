@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#image {
+    width: 70%;
+    float: left;
+}
+
+#image img{
+    width: 90%;
+    height: 550px;
+    padding-left: 0px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.fa-solid{
+    float: right;
+}
+
+.bordure {
+    background-color: rgb(37, 14, 4);
+    border: 0px solid black;
+    width:  60%;
+    height: 550px;
+    padding: 80px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 40px;
+    margin: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    line-height: 15px;
+    white-space: normal;
+    font-size: 10px;
+}
+
+.name{
+    color: rgba(201, 158, 112, 0.826);
+}
+
+h2{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+h5{
+    color: white;
+}
+
+
+h6 {
+    color: rgba(188, 125, 58, 0.826);
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+
+label{
+    color: white;
+}
+
+input{
+    border: 0px solid black;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-right: 50px;
+    padding-left: -5px;
+    margin-left: 6px;
+    margin-top: 0px;
+    outline: none;
+    float: right;
+    background:none ;
+    margin-right: 1px;
+} 
+
+.select{
+    border-radius: 18px 18px 18px 18px;
+    border: 0px solid black;
+    color: black;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.button{
+    color: white;
+    background-color: rgba(201, 158, 112, 0.826);
+    border: 0px solid black;
+    border-radius: 18px 18px 18px 18px;
+    height: 40px;
+    width: 80px;
+}
+
+span{
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+    width: 80px;
+    border: 6px solid black;
+}
+
+
+
+select{
+    border: 0px solid black;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-right: 100px;
+    padding-left: 8px;
+    margin-left: 10px;
+    margin-top: 0px;
+    outline: none;
+    float: right;
+    background:none ;
+    margin-right: 1px;
+}
+
+button{
+    background-color: rgba(188, 125, 58, 0.826);
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-size: 10px;
+} 
+
+
+
+@media screen and (max-width: 780px){
+    body{
+        background-size: 300%;
+    }
+
+    .bordure {
+        height: 580px;
+        width: 240px;
+        margin-right: 50px;
+        display: block;
+        margin-left: 160px;
+        margin-right: 200px;
+        padding-right: 30px;
+        background-attachment: fixed;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        line-height: 12px;
+    }
+
+    #image{
+        width:  50%;
+        float: none;
+        height: -12px;
+        margin-left: 0px;
+        margin-right: -30px;
+    }
+
+    #image img{
+        width: 350px;
+        height: 130px;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        position: relative;
+    }
+
+    h2{
+        margin-bottom: 40px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    label, h5{
+        padding-left: 18px;
+    }
+
+    h6{
+        padding-left: 5px;
+    }
+
+    input{
+        width: 245px;
+    }
+
+    button{
+        padding-left: 5px;
+    }
+
+    .pied{
+        margin-left: 30px;
+    }
+
+    .cage{
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+}
